@@ -17,7 +17,7 @@ function pascalTriangle(n, result) {
     for (var i = 2; i <= n; i++) {    //i give us the row  
         for (var j = 1; j <= i; j++) {   //j give us the column 
             B[j] = A[j - 1] + A[j];    //B elements are formed by adding 2 elements of A
-            texto += B[j] + " ";     //we print an element 
+            text += B[j] + " ";     //we print an element 
         }
         for (j = 1; j <= i; j++) {
             A[j] = B[j];        // Vector B becomes previous
